@@ -1,4 +1,11 @@
 Acunetix_13 Linux Install：
+$ chmod +x acunetix_13.0.200217097_x64_.sh
+$ ./acunetix_13.0.200217097_x64_.sh 
+$ cp wvsc /home/acunetix/.acunetix/v_200217097/scanner/ 
+$ cp license_info.json /home/acunetix/.acunetix/data/license/
+$ systemctl start acunetix.service
+
+
 1.Install using Acunetix_13.0.200217097_x64.sh
 2.Copy the "wvsc" file to the install directory: “/home/acunetix/.acunetix/v_200217097/scanner/”
 3.Copy the license_info.json license file to the license directory: "/home/acunetix/.acunetix/data/license/”
@@ -7,8 +14,4 @@ Acunetix_13 Linux Install：
 6. service acunetix start
 
 
-$ chmod +x acunetix_13.0.200217097_x64_.sh
-$ ./acunetix_13.0.200217097_x64_.sh 
-$ cp Crack/wvsc /home/acunetix/.acunetix/v_200217097/scanner/ 
-$ cp Crack/license_info.json /home/acunetix/.acunetix/data/license/
-$ systemctl start acunetix.service
+
